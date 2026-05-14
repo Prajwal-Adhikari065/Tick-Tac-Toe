@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9DA9A0;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: #575c4d;
+    margin-bottom: 2.5rem;
+    text-shadow: 1px 1px 1px #000000;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vmax;
+}
+
+.gameContainer {
+    background-color: #C0CAAD;
+    border-radius: 2rem;
+    width: 92%;
+    max-width: 410px;
+    min-width: 220px;
+
+    height: 430px;
+    max-height: 600px;
+    min-height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 6px 12px 20px #34453B;
+}
+
+.click-box {
+    font-family: "AKT";
+    height: 7rem;
+    width: 7rem;
+    background-color: beige;
+    color: #575c4d;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 3px 2.5px 8px #34453B;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.winMesage {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "AKT";
+    font-size: 4rem;
+
+}
+#newGame{
+    margin-top: 1.5rem;
+    padding: 0.9rem 2rem;
+    font-size: 1.2rem;
+    font-family: "AKT", sans-serif;
+    color: #C0CAAD;
+    background: #575c4d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 6px 12px #34453B;
+    transition: all 0.25s ease-in-out;
+    letter-spacing: 1px;
+}
+#reset{
+     margin-top: 1.5rem;
+    padding: 0.9rem 2rem;
+    font-size: 1.2rem;
+    font-family: "AKT", sans-serif;
+    color: #C0CAAD;
+    background: #575c4d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 6px 12px #34453B;
+    transition: all 0.25s ease-in-out;
+    letter-spacing: 1px;
+}
+
+
