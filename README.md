@@ -2,7 +2,7 @@
 A fully interactive Tic-Tac-Toe web application built with vanilla JavaScript, CSS3, and HTML5. Deployed via Netlify.
 
 ##  Live Demo
-[Play the Game]([https://your-netlify-link.netlify.app](https://ticktacktoeprajwal.netlify.app/))
+[Play the Game]([https://ticktacktoeprajwal.netlify.app/)
 
 ## Features
    -Interactive 3x3 Tic Tac Toe board
